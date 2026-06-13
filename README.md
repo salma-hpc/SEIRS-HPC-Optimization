@@ -1,4 +1,4 @@
-# Simulation épidémiologique SEIRS en Python, C++ et C
+# Modélisation SEIRS : Optimisation HPC et Green Computing (Python, C++, C)
 
 **Étudiante :** Salma BENSMAIL (Master 2 CHPS)  
 **Année :** 2025-2026
@@ -15,7 +15,7 @@ L'objectif est d'analyser l'impact du choix technologique sur la performance HPC
 ## Structure du dépôt
 
 ```text
-Projet_Synthese_SEIRS_Bensmail/
+SEIRS-HPC-Optimization/
 ├── README.md
 ├── figures/
 │   ├── comparaison_rk4_euler.png
