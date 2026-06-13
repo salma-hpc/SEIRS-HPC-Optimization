@@ -17,6 +17,11 @@ L'objectif est d'analyser l'impact du choix technologique sur la performance HPC
 ```text
 Projet_Synthese_SEIRS_Bensmail/
 ├── README.md
+├── figures/
+│   ├── comparaison_rk4_euler.png
+│   ├── validation_python_cpp.png
+│   ├── sma_dynamique_infectes.png
+│   └── simulation_langage_c.png
 ├── notebooks/
 │   ├── Salma_BENSMAIL_Projet_Partie1_ODE.ipynb
 │   ├── Salma_BENSMAIL_Projet_Partie2_SMA.ipynb
@@ -48,5 +53,27 @@ Pour reproduire les résultats :
 
 ## Résultats clés
 
-- **Performance :** le code C optimisé est jusqu'à **91x** plus rapide que la version Python.
-- **Green Computing :** la consommation énergétique a été divisée par un facteur **270**.
+- **Performance :** le code C optimisé réduit le temps d'exécution d'un facteur 91 par rapport à la version Python.
+- **Green Computing :** la consommation énergétique a été divisée par un facteur 270.
+
+## Visualisation des résultats
+
+### 1. Approche déterministe (ODE)
+
+#### Comparaison des schémas numériques
+
+![Comparaison RK4 vs Euler](figures/comparaison_rk4_euler.png)
+
+#### Validation cross-language
+
+![Validation Python vs C++](figures/validation_python_cpp.png)
+
+### 2. Approche stochastique (SMA)
+
+#### Dynamique des infectés
+
+![Dynamique des infectés](figures/sma_dynamique_infectes.png)
+
+#### Simulation globale en langage C
+
+![Simulation en langage C](figures/simulation_langage_c.png)
