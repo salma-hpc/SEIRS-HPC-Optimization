@@ -27,10 +27,10 @@ Projet_Synthese_SEIRS_Bensmail/
 
 ## Contenu du dépôt
 
-- `reports/Salma_BENSMAIL_Rapport_Projet_SEIRS.pdf` : rapport scientifique complet, incluant l'analyse, les résultats et les preuves.
-- `notebooks/Salma_BENSMAIL_Projet_Partie1_ODE.ipynb` : notebook contenant la résolution numérique et la comparaison Python vs C++.
-- `notebooks/Salma_BENSMAIL_Projet_Partie2_SMA.ipynb` : notebook principal contenant la simulation multi-agents et la comparaison Python / C++ / C optimisé.
-- `notebooks/Salma_BENSMAIL_Projet_Partie3_Bonus.ipynb` : notebook dédié aux optimisations avancées, notamment les générateurs aléatoires et les mesures énergétiques.
+- [Rapport scientifique complet](reports/Salma_BENSMAIL_Rapport_Projet_SEIRS.pdf) : analyse, résultats et preuves.
+- [Notebook Partie 1 - ODE](notebooks/Salma_BENSMAIL_Projet_Partie1_ODE.ipynb) : résolution numérique et comparaison Python vs C++.
+- [Notebook Partie 2 - SMA](notebooks/Salma_BENSMAIL_Projet_Partie2_SMA.ipynb) : simulation multi-agents et comparaison Python / C++ / C optimisé.
+- [Notebook Partie 3 - Bonus](notebooks/Salma_BENSMAIL_Projet_Partie3_Bonus.ipynb) : optimisations avancées, générateurs aléatoires et mesures énergétiques.
 
 ## Instructions d'exécution
 
@@ -38,7 +38,7 @@ Projet_Synthese_SEIRS_Bensmail/
 
 Pour reproduire les résultats :
 
-1. Ouvrir un notebook, par exemple `notebooks/Salma_BENSMAIL_Projet_Partie2_SMA.ipynb`.
+1. Ouvrir un notebook, par exemple [Partie 2 - SMA](notebooks/Salma_BENSMAIL_Projet_Partie2_SMA.ipynb).
 2. Exécuter les cellules séquentiellement (**Run All**).
 3. Le notebook va automatiquement :
    - générer les fichiers `.c` et `.cpp`,
