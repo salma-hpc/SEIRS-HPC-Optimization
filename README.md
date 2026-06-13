@@ -1,4 +1,4 @@
-# Projet de Synthèse - Modélisation Épidémiologique SEIRS
+# Simulation épidémiologique SEIRS en Python, C++ et C
 
 **Étudiante :** Salma BENSMAIL (Master 2 CHPS)  
 **Année :** 2025-2026
